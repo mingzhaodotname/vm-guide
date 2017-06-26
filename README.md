@@ -18,3 +18,10 @@ domain is the virtual machine instances.
 # move KVM
 
 https://serverfault.com/questions/434064/correct-way-to-move-kvm-vm
+
+# networking, bridge
+
+* http://goyalankit.com/blog/linux-bridge
+* Anatomy of a Linux bridge: https://wiki.aalto.fi/download/attachments/70789083/linux_bridging_final.pdf
+* bridge vs switch - basically the same, different words in different times.
+* http://ebtables.netfilter.org/br_fw_ia/br_fw_ia.html

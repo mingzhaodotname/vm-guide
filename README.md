@@ -14,3 +14,7 @@ domain is the virtual machine instances.
   * qemu:///system
 * virsh list
 * virsh 
+
+# move KVM
+
+https://serverfault.com/questions/434064/correct-way-to-move-kvm-vm

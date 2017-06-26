@@ -2,6 +2,16 @@
 * virsh works with QEMU/KVM and with libvirt. 
 * libvirtd is for KVM, and its data is in /var/lib/libvirt
 
+# install
+
+https://www.cyberciti.biz/faq/installing-kvm-on-ubuntu-16-04-lts-server/
+```
+$ sudo apt-get install qemu-kvm libvirt-bin virtinst bridge-utils cpu-checker
+$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
+```
+
 # virt-manager
 sudo virt-manager -c qemu:///system
 

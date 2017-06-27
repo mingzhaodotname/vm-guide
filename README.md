@@ -23,7 +23,10 @@ domain is the virtual machine instances.
 * virsh uri
   * qemu:///system
 * virsh list
-* virsh 
+* virsh console <vm name i.e domain name>
+  * If press "enter" doesn't get into the console, try this:
+    * systemctl enable serial-getty@ttyS0.service
+    * systemctl start serial-getty@ttyS0.service
 
 # move KVM
 
